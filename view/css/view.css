@@ -1,0 +1,49 @@
+/*td{*/
+/*    text-align: center;*/
+/*}*/
+/*th{*/
+/*    width: 87px;*/
+/*    text-align: center;*/
+/*}*/
+/*h1{*/
+/*    position: absolute;*/
+/*    top: 3%;*/
+/*    left: 40%;*/
+/*    color: white;*/
+/*    text-shadow: 0 0 20px #33B0A6;*/
+/*}*/
+/*table{*/
+/*    position: absolute;*/
+/*    top: 15%;*/
+/*    left: 23%;*/
+
+/*}*/
+
+/* Border styles */
+.table thead, .table tr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(211, 202, 221);
+}
+.table {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(211, 202, 221);
+}
+
+/* Padding and font style */
+.table td, .table th {
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-family: Verdana;
+    color: #3498db;
+}
+
+/* Alternating background colors */
+.table tr:nth-child(even) {
+    background: rgb(223, 216, 232)
+}
+.table tr:nth-child(odd) {
+    background: #FFF
+}
